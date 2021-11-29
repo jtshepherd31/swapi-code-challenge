@@ -1,0 +1,64 @@
+.person-details-container {
+  background-color: #555;
+  color: #fff;
+  margin: 50px auto 0;
+  opacity: .8;
+  padding: 20px 30px;
+  width: 40%;
+}
+
+.person-details-name {
+  font-size: 42px;
+  margin: auto 0;
+  padding: 10px 40px;
+  text-align: center;
+}
+
+.person-details-back-btn {
+  background-image: url('../images/back-arrow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  float: right;
+  height: 50px;
+  padding: 20px 0px 0;
+  width: 50px;
+}
+
+.person-details-back-btn:hover {
+  background-image: url('../images/back-arrow-yellow.png');
+}
+
+.person-details {
+    display: flex;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  margin: 0 20px 20px;
+  min-width: 100px;
+}
+
+.person-details-left {
+  margin-left: 40px;
+  width: 20%;
+}
+
+.person-detail-key {
+  color: #ffe81f;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: 5px 0;
+}
+
+.person-detail-value {
+  font-size: 24px;
+  margin: 0;
+}

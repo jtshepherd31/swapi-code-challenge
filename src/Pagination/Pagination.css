@@ -1,0 +1,24 @@
+ .pagination-container {
+  background-color: transparent;
+  display: flex;
+  margin: 0 auto;
+  width: 260px;
+}
+
+ .pagination-button {
+  background-color: transparent;
+  border: none;
+  width: 80px;
+}
+
+ .button-img {
+  height: 30px;
+  width: 30px;
+}
+
+ .page-number {
+  color: #ffe81f;
+  font-size: 36px;
+  text-align: center;
+  width: 50px;
+}
