@@ -50,11 +50,23 @@
 }
 
 @media screen and (max-width: 800px) {
+  .search-input {
+    top: 140px;
+    width: 200px;
+  }
+
   .search-button {
     top: 140px;
   }
+}
 
-  .search-input {
-    top: 140px;
+@media screen and (max-width: 500px) {
+  .people-section {
+    flex-direction: column;
+    margin: 6%;
+  }
+
+  .people-card {
+    width: 80%;
   }
 }

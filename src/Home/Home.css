@@ -55,3 +55,9 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .species-container {
+    margin-top: 50px;
+  }
+}

@@ -62,3 +62,15 @@ li {
   font-size: 24px;
   margin: 0;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .person-details-container {
+    /*background-color: #555;*/
+    /*color: #fff;*/
+    /*margin: 50px auto 0;*/
+    /*opacity: .8;*/
+    /*padding: 20px 30px;*/
+    width: 80%;
+  }
+}
