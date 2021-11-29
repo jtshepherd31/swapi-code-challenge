@@ -20,6 +20,13 @@
   100% { transform: rotate(360deg); }
 }
 
+.error-message {
+  color: #fff;
+  font-size: 32px;
+  margin: 20% 0;
+  text-align: center;
+}
+
 .species-name {
   color: #fff;
   font-size: 32px;
