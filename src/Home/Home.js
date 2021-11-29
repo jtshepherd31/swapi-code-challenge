@@ -57,7 +57,7 @@ const Home = () => {
             peopleList.length && !errorMessage && <People people={ peopleList } errorMessage={ errorMessage }/>
           }
           {
-            !peopleList.length && !errorMessage && speciesList.map((species, i) => (
+            !peopleList.length && !errorMessage && !loading && speciesList.map((species, i) => (
                 <div key={i}>
                   <div>
                     <h3 className='species-name'>{ species.name }</h3>
@@ -67,10 +67,10 @@ const Home = () => {
             ))
           }
         </div>
-        { !loading && !peopleList.length &&
+        { !loading && !peopleList.length && !errorMessage &&
           <Pagination setPageNumber={changePageNumber} pageNumber={pageNumber}/>
         }
-        { peopleList.length &&
+        { peopleList.length || errorMessage &&
           <button className='view-all-btn' onClick={ viewAllSpecies }>View All</button>
         }
 
