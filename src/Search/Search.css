@@ -9,7 +9,7 @@
   border: none;
   border-radius: 2px 5px 5px 2px;
   padding: 10px;
-  height: 33px;
+  height: 35px;
   position: absolute;
   right: 15px;
   top: 30px;
@@ -47,4 +47,14 @@
   font-family: 'Russo One', sans-serif;
   font-size: 16px;
   padding: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .search-button {
+    top: 140px;
+  }
+
+  .search-input {
+    top: 140px;
+  }
 }

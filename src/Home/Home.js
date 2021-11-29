@@ -28,8 +28,7 @@ const Home = () => {
 
   const searchForPerson = async(e) => {
     if (!e.target.value && peopleList.length) {
-      setErrorMessage('');
-      setPeopleList([]);
+      viewAllSpecies();
       return;
     }
 
@@ -42,9 +41,11 @@ const Home = () => {
       setErrorMessage('');
       setPeopleList(people);
     }
+  };
 
-    console.log(errorMessage)
-
+  const viewAllSpecies = () => {
+    setPeopleList([]);
+    setErrorMessage('');
   };
 
   return (
@@ -66,8 +67,11 @@ const Home = () => {
             ))
           }
         </div>
-        { !loading &&
+        { !loading && !peopleList.length &&
           <Pagination setPageNumber={changePageNumber} pageNumber={pageNumber}/>
+        }
+        { peopleList.length &&
+          <button className='view-all-btn' onClick={ viewAllSpecies }>View All</button>
         }
 
       </section>

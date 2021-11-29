@@ -28,7 +28,8 @@ a {
 
 .people-card:hover {
   background-color: #fbd0cee0;
-  box-shadow: 0px 0px 35px #ff6b6b;}
+  box-shadow: 0px 0px 35px #ff6b6b;
+}
 
 .people-text {
   background-color: #333;

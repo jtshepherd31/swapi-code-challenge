@@ -1,5 +1,5 @@
 .species-container {
-  margin: 0 auto;
+  margin: 30px auto;
   height: 70vh;
   overflow: scroll;
   width: 80%;
@@ -31,6 +31,23 @@
   color: #fff;
   font-size: 32px;
   margin-left: 20px;
+}
+
+.view-all-btn {
+  background-color: transparent;
+  border: 1px solid #ff6b6b;
+  border-radius: 40px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 22px;
+  height: 60px;
+  margin: 0 45%;
+  width: 150px;
+}
+
+.view-all-btn:hover {
+  background-color: #fbd0cee0;
+  box-shadow: 0px 0px 35px #ff6b6b;
 }
 
 @media screen and (max-width: 1100px) {
