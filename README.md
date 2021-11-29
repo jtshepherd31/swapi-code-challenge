@@ -1,7 +1,7 @@
 ## Table of Contents
  * [Introduction](#introdution)
- * Requirements
- * Installation
+ * [Requirements](#requirements)
+ * [Installation](#installation)
 
 ## Introduction
 
